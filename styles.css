@@ -41,6 +41,7 @@
     margin: 0;
     font-family: 'Proxima Nova', Helvetica, Arial;
 }
+
 /* photo credit: Agung Satwika https://unsplash.com/@agungsatwika */
 .background {
     background-image: url(images/casette.jpg);
@@ -197,6 +198,7 @@ input:valid + span::before {
 }
 
 .footer {
+    position: absolute;
     padding-left: 25px;
     position: relative;
     margin-top: 175px;
@@ -282,6 +284,15 @@ input:valid + span::before {
     /* styles for browsers smaller than 960px; */
     .background {
         background-size: 180px 70vh;
+    }
+
+    form {
+        height: 60vh;
+        margin: 45px auto 35px;
+        font-family: 'Proxima Nova', Helvetica, Arial;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
     }
 
     input {
