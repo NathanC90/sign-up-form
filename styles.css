@@ -41,7 +41,7 @@
     margin: 0;
     font-family: 'Proxima Nova', Helvetica, Arial;
 }
-
+/* photo credit: Agung Satwika https://unsplash.com/@agungsatwika */
 .background {
     background-image: url(images/casette.jpg);
     background-position: 100%;
@@ -54,8 +54,12 @@
 h1 {
     padding: 25px;
 }
-h1 a {
+
+a {
     text-decoration: none;
+}
+
+h1 a {
     color: #000;
 }
 
@@ -127,4 +131,15 @@ form input {
     padding-left: 25px;
     position: relative;
     margin-top: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-credit {
+    color: #FFF;
+    padding-right: 25px;
+}
+
+.photo-credit a {
+    color: #FFF;
 }
