@@ -106,7 +106,7 @@ input {
     border: 1px solid #27282A;
     transition: all 1000ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     padding: 0 0 0 20px;
-    width: 340px;
+    width: 375px;
     height: 40px;
     margin: 10px 0;
 }
