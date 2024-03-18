@@ -24,7 +24,7 @@
             </label>
             <label for="password" class="label">Password
                 <span data-tooltip="Must be a minimum of 8 characters, contain a capital letter, a lowercase letter, and a numerical digit." id="requirements">Requirements?</span>
-                <input type="password" name="password" id="password" required>
+                <input type="password" name="password" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required>
             </label>
             <button type="submit" class="submit">CREATE FREE ACCOUNT</button>
             <p class="have-account">Already have an account? <a href="http://" target="_blank" rel="noopener noreferrer">LOG IN</a></p>
