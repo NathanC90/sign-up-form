@@ -177,6 +177,7 @@ input:valid + span::before {
     color: #CCC;
     height: 40px;
     font-size: 14px;
+    border: none;
 }
 
 .submit:hover {
@@ -300,7 +301,7 @@ input:valid + span::before {
         transition: all 1000ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
         padding: 0 0 0 20px;
         width: 70%;
-        height: 30px;
+        height: 25px;
         margin: 10px 0;
     }
 
@@ -313,11 +314,11 @@ input:valid + span::before {
     }
 
     .submit {
-        margin-top: 30px;
+        margin: 10px 0 0 0;
         background-color: #27282A;
         color: #CCC;
         width: 70%;
-        height: 35px;
+        padding: 10px 0;
         font-size: 12px;
     }
 
