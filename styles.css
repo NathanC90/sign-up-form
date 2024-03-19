@@ -135,6 +135,12 @@ input:valid + span::before {
     color: #8BC34A;
 }
 
+
+input:user-invalid + span::before {
+    content: "x";
+    color: #b92326;
+}
+
 #requirements {
     cursor: pointer;
     font-size: 12px;
